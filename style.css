@@ -775,7 +775,7 @@ img {
 
 /* register_section*/
 .register_section {
-  background-image: linear-gradient(to right, #24e9cf, #00dedc, #00d2e5, #00c5e9, #1bb7e8);
+background-image: linear-gradient(to right top, #635cdb, #0084f0, #00a2ec, #00b9db, #52ccca);
   padding: 100px 0;
 }
 
