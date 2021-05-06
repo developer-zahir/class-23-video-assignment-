@@ -773,6 +773,77 @@ img {
   margin: 0;
 }
 
+/* register_section*/
+.register_section {
+  background-image: linear-gradient(to right, #24e9cf, #00dedc, #00d2e5, #00c5e9, #1bb7e8);
+  padding: 100px 0;
+}
+
+.register_section .left {
+  padding-right: 30px;
+}
+
+.register_section .left h1 {
+  color: white;
+}
+
+.register_section .left .hr {
+  width: 150px;
+  height: 3px;
+  background: rgba(148, 146, 146, 0.24);
+  margin: 10px 0;
+}
+
+.register_section .left p {
+  color: rgba(255, 255, 255, 0.747);
+  text-align: justify;
+}
+
+.register_section .left ul {
+  padding: 0;
+  margin: 0;
+}
+
+.register_section .left ul li {
+  display: inline-block;
+  margin-left: -5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: 0.4s;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.register_section .left ul li:hover {
+  box-shadow: 0 0 15px white;
+  background: #06d1ca;
+}
+
+.register_section .left ul li a {
+  color: white;
+  display: block;
+}
+
+.register_section .right {
+  margin-left: 30px;
+}
+
+.register_section .right label {
+  color: white;
+}
+
+.register_section .right .form-control {
+  box-shadow: none;
+  border: 1px solid #1bb7e8;
+}
+
+.register_section .right textarea {
+  height: 120px;
+}
+
 .footer_section {
   padding: 150px  0 50px 0;
   background: url(./img/2.png);
